@@ -1,0 +1,37 @@
+# Input data
+resolution: 1024                 
+age_min: 20                  
+age_max: 70  
+# Training hyperparameters                 
+batch_size: 32                 
+epochs: 10    
+truncation_psi: 0.5
+# Optimizer parameters               
+lr: 0.001         
+beta_1: 0.9                   
+beta_2: 0.999
+weight_decay: 0.0005  
+# Learning rate scheduler                  
+step_size: 10                
+gamma: 0.1                                 
+# Tensorboard log options
+image_save_iter: 3000         
+image_log_iter: 1000         
+log_iter: 10                  
+# Networks
+net_type: 17
+mapping_layers: 18
+mapping_fmaps: 512
+mapping_lrmul: 1
+mapping_nonlinearity: 'linear'
+# Classifier
+cls_type: 1
+latent_cls_type: 3013
+# Attributes
+attr: '5_o_Clock_Shadow,Arched_Eyebrows,Attractive,Bags_Under_Eyes,Bald,Bangs,Big_Lips,Big_Nose,Black_Hair,Blond_Hair,Blurry,Brown_Hair,Bushy_Eyebrows,Chubby,Double_Chin,Eyeglasses,Goatee,Gray_Hair,Heavy_Makeup,High_Cheekbones,Male,Mouth_Slightly_Open,Mustache,Narrow_Eyes,No_Beard,Oval_Face,Pale_Skin,Pointy_Nose,Receding_Hairline,Rosy_Cheeks,Sideburns,Smiling,Straight_Hair,Wavy_Hair,Wearing_Earrings,Wearing_Hat,Wearing_Lipstick,Wearing_Necklace,Wearing_Necktie,Young'
+# Loss weight
+corr_threshold: 1
+w:
+  pb: 1
+  recon: 10
+  reg: 1
