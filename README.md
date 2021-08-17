@@ -80,6 +80,8 @@ python scripts/inference.py \
 
 You can reproduce the sequential editing results in the paper using `notebooks/figure_sequential_edit.ipynb` and the results in the supplementary material using `notebooks/figure_supplementary.ipynb`.
 
+![User Interface](./image/user_interface.jpg)
+
 We also provide an interactive visualization `notebooks/visu_manipulation.ipynb`, where the user can choose the desired attributes for manipulation and define the magnitude of edit for each attribute.  
 
 
