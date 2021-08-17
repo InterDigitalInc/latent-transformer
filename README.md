@@ -93,6 +93,15 @@ We provide a script to achieve attribute manipulation for the videos in the test
 sh run_video_manip.sh
 ```
 
+## Citation
+```
+@article{yao2021latent,
+  title={A Latent Transformer for Disentangled Face Editing in Images and Videos},
+  author={Yao, Xu and Newson, Alasdair and Gousseau, Yann and Hellier, Pierre},
+  journal={2021 International Conference on Computer Vision},
+  year={2021}
+}
+```
 ## License
 
 Copyright © 2021, InterDigital R&D France. All rights reserved.
